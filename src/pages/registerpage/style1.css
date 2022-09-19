@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.registerpage .registerpage a {
+    text-decoration: none;
+}
+.registerpage .registerpage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerpage .container {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registerpage .container1 img {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.registerpage .container2 {
+    margin-bottom: 20px;
+}
+.registerpage .container3 {
+    border: 1px solid rgb(199, 198, 198);
+    width: 18%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(254, 251, 251);
+    box-shadow: 3px ;
+    margin-bottom: 20px;
+}
+.registerpage .container31 {
+    margin-bottom: 10px;
+}
+.registerpage .container32{
+    margin-bottom: 15px;
+}
+.registerpage .container32 p {
+    color: red;
+}
+.registerpage .container32 input {
+    width: 100%;
+    height: 30px; 
+    outline: none;
+}
+.registerpage .container33 {
+    margin-bottom: 10px;
+}
+.registerpage .container34{
+    margin-bottom: 15px;   
+}
+.registerpage .container34 p {
+    color: red;
+}
+.registerpage .container34 .ok {
+    color: blue;
+}
+.registerpage .container34 input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+}
+.registerpage .container35 button {
+    width: 100%;
+    height: 35px;
+    font-weight: bolder;
+    background-color: brown;
+    border: 1px;
+    color: white;
+}
+.registerpage .container35 .err {
+    color: red;
+}
+.registerpage .container35 .ok {
+    color: blue;
+}
+.registerpage .container4 {
+    width: 18%;
+    height: 50px;
+    border: 1px solid rgb(199, 198, 198);
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(254, 251, 251);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

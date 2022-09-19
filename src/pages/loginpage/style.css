@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.loginpage a {
+    text-decoration: none;
+}
+.loginpage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginpage .container {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://anhdep123.com/wp-content/uploads/2021/02/anh-sieu-nhan-gao-dep.jpg");
+    /* background-image: image(anh-sieu-nhan-gao-dep); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loginpage .container1 img {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.loginpage .container2 {
+    margin-bottom: 20px;
+}
+.loginpage .container2 h1 {
+    color: aqua;
+}
+.loginpage .container3 {
+    border: 1px solid rgb(199, 198, 198);
+    width: 18%;
+    border-radius: 10px;
+    padding: 20px;
+    /* background-color: rgb(254, 251, 251); */
+    background-image: url('https://i.pinimg.com/236x/3b/97/63/3b97635b6bd4a5bfc436fbd3908f05e0.jpg');
+    box-shadow: 3px ;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loginpage .container3 h5 {
+    color: blue;
+}
+.loginpage .container31 {
+    margin-bottom: 10px;
+}
+.loginpage .container32 {
+    margin-bottom: 15px;
+}
+.loginpage .container32 p {
+    color: red;
+}
+.loginpage .container32 input {
+    width: 100%;
+    height: 30px;
+    /* margin-bottom: 20px; */
+    outline: none;
+}
+.loginpage .container33 {
+    margin-bottom: 10px;
+}
+.loginpage .container34 {
+    margin-bottom: 20px;
+}
+.loginpage .container34 input {
+    width: 100%;
+    height: 30px;
+    /* margin-bottom: 20px; */
+    outline: none;
+}
+.loginpage .container34 p {
+    color: red;
+}
+.loginpage .container35 button {
+    width: 100%;
+    height: 35px;
+    font-weight: bolder;
+    background-color: brown;
+    border: 1px;
+    color: white;
+}
+.loginpage .container4 {
+    width: 18%;
+    height: 50px;
+    border: 1px solid rgb(199, 198, 198);
+    background-color: rgb(254, 251, 251);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.loginpage .container4 .btn_newnink {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(199, 198, 198);
+    background-color: rgb(254, 251, 251);
+    border-radius: 10px;
+}
+.loginpage .container5 {
+    width: 18%;
+    height: 20px;
+}
+.loginpage .container5 .text{
+    width: 100%;
+    height: 100%;
+    background-color:initial;
+    border: 1px;
+    text-align: center;
+    line-height: 100%;
+}
+.loginpage .text {
+    float: right;
+    color: red;
+}
